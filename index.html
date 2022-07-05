@@ -488,91 +488,103 @@
 		<!-- Підвал -->
 
 		<footer class="footer">
-			<div class="container">
-				<div class="footer-container">
-					<div class="address-container">
-						<a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+			<div class="container footer-container">
+				<div class="address-container">
+					<a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
 
-						<!-- Адреса -->
+					<!-- Адреса -->
 
-						<address>
-							<ul class="footer-list link">
-								<li class="footer-list-item">
-									<a class="address map link" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer"
-										>г. Киев, пр-т Леси Украинки, 26</a
-									>
-								</li>
-
-								<!-- Контакти -->
-
-								<li class="footer-list-item">
-									<a class="address-contact link" href="mailto:info@devstudio.com">info@example.com</a>
-								</li>
-								<li class="footer-list-item">
-									<a class="address-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
-								</li>
-							</ul>
-						</address>
-					</div>
-
-					<div class="address-container">
-						<p class="footer-title">присоединяйтесь</p>
-						<ul class="networks-list list">
-							<li class="networks-item">
-								<a
-									class="footer-social-link link"
-									href="https://www.instagram.com"
-									aria-label="instagram"
-									target="_blank"
-									rel="noreferrer noopener"
+					<address>
+						<ul class="footer-list link">
+							<li class="footer-list-item">
+								<a class="address map link" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer"
+									>г. Киев, пр-т Леси Украинки, 26</a
 								>
-									<svg class="footer-social-icon" width="20" height="20">
-										<use href="./images/icons.svg#icon-instagram"></use>
-									</svg>
-								</a>
 							</li>
-							<li class="networks-item">
-								<a
-									class="footer-social-link link"
-									href="https://www.twitter.com"
-									aria-label="twitter"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<svg class="footer-social-icon" width="20" height="20">
-										<use href="./images/icons.svg#icon-twitter"></use>
-									</svg>
-								</a>
+
+							<!-- Контакти -->
+
+							<li class="footer-list-item">
+								<a class="address-contact link" href="mailto:info@devstudio.com">info@example.com</a>
 							</li>
-							<li class="networks-item">
-								<a
-									class="footer-social-link link"
-									href="https://www.facebook.com"
-									aria-label="facebook"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<svg class="footer-social-icon" width="20" height="20">
-										<use href="./images/icons.svg#icon-facebook"></use>
-									</svg>
-								</a>
-							</li>
-							<li class="networks-item">
-								<a
-									class="footer-social-link link"
-									href="https://www.linkedin.com"
-									aria-label="linkedin"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<svg class="footer-social-icon" width="20" height="20">
-										<use href="./images/icons.svg#icon-linkedin"></use>
-									</svg>
-								</a>
+							<li class="footer-list-item">
+								<a class="address-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
 							</li>
 						</ul>
-					</div>
+					</address>
 				</div>
+
+				<div class="social-container">
+					<p class="footer-title">присоединяйтесь</p>
+					<ul class="networks-list list">
+						<li class="networks-item">
+							<a
+								class="footer-social-link link"
+								href="https://www.instagram.com"
+								aria-label="instagram"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								<svg class="footer-social-icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="networks-item">
+							<a
+								class="footer-social-link link"
+								href="https://www.twitter.com"
+								aria-label="twitter"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								<svg class="footer-social-icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="networks-item">
+							<a
+								class="footer-social-link link"
+								href="https://www.facebook.com"
+								aria-label="facebook"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								<svg class="footer-social-icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="networks-item">
+							<a
+								class="footer-social-link link"
+								href="https://www.linkedin.com"
+								aria-label="linkedin"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								<svg class="footer-social-icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<form class="footer-form">
+					<label for="email" class="footer-label">Подпишитесь на рассылку</label>
+					<div class="subscribe">
+						<input type="email" name="email" id="email" placeholder="E-mail" required class="footer-input" />
+
+						<button type="submit" class="button-form">
+							Подписаться
+							<svg class="icon-send" width="24px" height="24px">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
 			</div>
 		</footer>
 
@@ -585,6 +597,48 @@
 						<use href="./images/icons.svg#close-button"></use>
 					</svg>
 				</button>
+
+				<!-- Модальне вікно Портфоліо -->
+
+				<form class="form-action" autocomplete="on">
+					<h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+					<ul class="form">
+						<li class="form-field">
+							<label for="name" class="form-label">Имя</label>
+							<input type="text" id="name" class="form-input" name="name" required autofocus />
+							<svg class="icon-input">
+								<use href="./images/icons.svg#person-icon"></use>
+							</svg>
+						</li>
+						<li class="form-field">
+							<label for="tel" class="form-label">Телефон</label>
+							<input type="tel" id="tel" class="form-input" name="phone" required />
+							<svg class="icon-input">
+								<use href="./images/icons.svg#phone-icon"></use>
+							</svg>
+						</li>
+						<li class="form-field">
+							<label for="mail" class="form-label">Почта</label>
+							<input type="email" id="mail" class="form-input" name="email" required />
+							<svg class="icon-input">
+								<use href="./images/icons.svg#email-icon"></use>
+							</svg>
+						</li>
+						<li class="form-field">
+							<label class="form-label" for="comment">Комментарий</label>
+							<textarea name="coment" id="comment" placeholder="Введите текст"></textarea>
+						</li>
+					</ul>
+
+					<label class="label">
+						<input type="checkbox" name="policy" class="checkbox" required />
+						<span class="icon-span"></span>
+						Соглашаюсь с рассылкой и принимаю<a href="" class="policy-link">Условия договора</a>
+					</label>
+
+					<button type="submit" class="primary-button submit">Отправить</button>
+				</form>
 			</div>
 		</div>
 
